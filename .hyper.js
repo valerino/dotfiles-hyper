@@ -152,10 +152,12 @@ module.exports = {
     "hypercwd",
     "hyper-dracula",
     "hyper-tabs-enhanced",
-    "hyper-active-tab",	
+    "hyper-active-tab",
     "hyper-pane",
-    "hyper-search"	  
-	  
+    "hyper-search",
+    "hyperterm-dibdabs",
+    "hyper-savetext",
+    "hyperterm-tabs"
   ],
 
   // in development, you can create a directory under
