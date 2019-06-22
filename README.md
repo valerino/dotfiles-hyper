@@ -4,12 +4,12 @@ my dotfiles using [Hyper](https://hyper.is/) terminal, [oh-my-zsh](https://githu
 __previous [dotfiles](https://github.com/valerino/dotfiles) are no more mantained !__
 
 # prerequisites
-* zsh as the default shell
-* [Hyper](https://hyper.is/)
+* install zsh as the default shell
+* install [Hyper](https://hyper.is/)
  
 # pre-installation steps
-* __IMPORTANT: use the default terminal for installation, not Hyper itself!
-* __IMPORTANT: delete (making backups) of any existing ~/.zplug, ~/.vim, ~/.oh-my-zsh, ~/.hyper.js, ~/.vimrc, ~/.zshrc first, and restart the terminal__
+* __use the default terminal for installation, not Hyper itself!__
+* __delete (making backups) of any existing ~/.zplug, ~/.vim, ~/.oh-my-zsh, ~/.hyper.js, ~/.vimrc, ~/.zshrc first, and restart the terminal__
 
 # installation
 * clone this repo
