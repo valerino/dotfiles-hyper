@@ -148,12 +148,14 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     "hyper-statusline",
-    "hyperterm-tabs",
     "hyperterm-paste",
     "hypercwd",
     "hyper-dracula",
     "hyper-tabs-enhanced",
-    "hyper-pane"
+    "hyper-active-tab",	
+    "hyper-pane",
+    "hyper-search"	  
+	  
   ],
 
   // in development, you can create a directory under
