@@ -102,3 +102,8 @@ source $ZSH/oh-my-zsh.sh
 export GOPATH=~/go
 export PATH=~/bin:$GOPATH/bin:$PATH
 
+# android
+export ANDROID_NDK=~/Library/Android/sdk/ndk-bundle
+export ANDROID_SDK=~/Library/Android/sdk
+export PATH=$ANDROID_SDK/platform-tools:$ANDROID_NDK:$PATH
+
