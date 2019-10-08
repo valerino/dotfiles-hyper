@@ -157,7 +157,9 @@ module.exports = {
     "hyper-search",
     "hyperterm-dibdabs",
     "hyper-savetext",
-    "hyperterm-tabs"
+    "hyperterm-tabs",
+    "hyperpower",
+    "hyperline"
   ],
 
   // in development, you can create a directory under

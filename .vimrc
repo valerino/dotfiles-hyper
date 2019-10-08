@@ -34,6 +34,11 @@ set number
 "	enable mouse
 set mouse=a
 
+" tabs
+set tabstop=4
+set shiftwidth=4
+" set expandtab
+
 " 	fix backspace
 set backspace=indent,eol,start
 

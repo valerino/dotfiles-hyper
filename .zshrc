@@ -98,12 +98,29 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+# generic
+export PATH=/usr/local/sbin:$PATH
+export PATH=~/bin:$PATH
+
 # go settings
 export GOPATH=~/go
-export PATH=~/bin:$GOPATH/bin:$PATH
+export PATH=$GOPATH/bin:$PATH
 
 # android
-export ANDROID_NDK=~/Library/Android/sdk/ndk-bundle
-export ANDROID_SDK=~/Library/Android/sdk
-export PATH=$ANDROID_SDK/platform-tools:$ANDROID_NDK:$PATH
+case "$OSTYPE" in
+  darwin*)
+	export ANDROID_BASE=~/Library/Android/sdk
+	# ...
+  ;;
+  linux*)
+    export ANDROID_BASE=~/android-sdk
+  ;;
+esac
+export ANDROID_BUILD_TOOLS_VERSION=29.0.1
+export ANDROID_NDK=$ANDROID_BASE/ndk-bundle
+#export ANDROID_NDK=~/work/FrankeNDK
+export ANDROID_SDK=$ANDROID_BASE
+export ANDROID_HOME=$ANDROID_BASE
+export PATH=$ANDROID_SDK/platform-tools:$ANDROID_SDK/build-tools/$ANDROID_BUILD_TOOLS_VERSION:$ANDROID_NDK:$PATH
+alias apktool=~/bin/apktool.sh
 
