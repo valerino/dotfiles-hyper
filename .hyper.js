@@ -155,7 +155,7 @@ module.exports = {
     "hyper-active-tab",
     "hyper-pane",
     "hyper-search",
-    "hyperterm-dibdabs",
+    //"hyperterm-dibdabs",
     "hyper-savetext",
     // "hyperpower",
     "hyperterm-tabs"
@@ -170,4 +170,9 @@ module.exports = {
     // Example
     // 'window:devtools': 'cmd+alt+o',
   },
+	hyperTabs: {
+        trafficButtons: true,
+		tabIconsColored: true,
+
+      }
 };
