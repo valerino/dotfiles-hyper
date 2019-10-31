@@ -106,6 +106,9 @@ export PATH=~/bin:$PATH
 export GOPATH=~/go
 export PATH=$GOPATH/bin:$PATH
 
+# rust
+export PATH=~/.cargo/bin:$PATH
+
 # android
 case "$OSTYPE" in
   darwin*)
