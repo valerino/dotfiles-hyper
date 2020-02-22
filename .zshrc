@@ -124,6 +124,8 @@ export ANDROID_NDK=$ANDROID_BASE/ndk-bundle
 #export ANDROID_NDK=~/work/FrankeNDK
 export ANDROID_SDK=$ANDROID_BASE
 export ANDROID_HOME=$ANDROID_BASE
+export ANDROID_AVD_HOME=/Volumes/vm/android-emu/avd
+export ANDROID_EMULATOR_HOME=/Volumes/vm/android-emu
 export PATH=$ANDROID_SDK/platform-tools:$ANDROID_SDK/build-tools/$ANDROID_BUILD_TOOLS_VERSION:$ANDROID_NDK:$PATH
 alias apktool=~/bin/apktool.sh
 

@@ -170,9 +170,14 @@ module.exports = {
     // Example
     // 'window:devtools': 'cmd+alt+o',
   },
-	hyperTabs: {
-        trafficButtons: true,
-		tabIconsColored: true,
 
-      }
+  hyperTabs: {
+    trafficButtons: true,
+    tabIconsColored: true,
+  },
+   
+  // add the hypercwd configuration object like this
+  hypercwd: {
+	  initialWorkingDirectory: '~'
+  }	
 };
