@@ -98,7 +98,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+
+#PROMPT='%~ $(git_prompt_info)%{$reset_color%} '
+
 # generic
+
 export PATH=/usr/local/sbin:$PATH
 export PATH=~/bin:$PATH
 
