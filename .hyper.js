@@ -155,8 +155,6 @@ module.exports = {
     "hyper-active-tab",
     "hyper-pane",
     "hyper-search",
-    //"hyperterm-dibdabs",
-    "hyper-savetext",
     // "hyperpower",
     "hyperterm-tabs"
   ],
